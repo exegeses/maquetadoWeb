@@ -26,3 +26,11 @@ Instructor: Marcos Pinardi
     <elemento atributo="valor">    
        objeto   
     </elemento>
+    
+### Fórmula del CSS
+
+    selector{
+        atributo: valor;
+    }
+    
+ 
