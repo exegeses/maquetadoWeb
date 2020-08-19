@@ -33,4 +33,15 @@ Instructor: Marcos Pinardi
         atributo: valor;
     }
     
+## Tipos de selectores
+
+  1. de etiqueta
+  2. de id
+  3. de class    
+  
+### 1. Selector de Etiqueta
+>El selector de etiqueta se escribe igual que la etiqueta
+>pero sin < >   
+>y sirve para modificar la estética de una etiqeuta
+>cada vez que aparezca
  
