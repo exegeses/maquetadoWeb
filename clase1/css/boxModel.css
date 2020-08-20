@@ -1,0 +1,18 @@
+body{
+    background-color: #d8ef8f;
+    color: #363b20;
+    font-size: 1.2em;
+    font-family: Raleway, sans-serif;
+}
+p{
+    background-color: #ecf8ba;
+    width: 800px;
+    margin: 25px;
+    padding: 12px;
+}
+
+h1{
+    border-left: #687344 solid 22px;
+    padding-left: 16px;
+    margin-left: 20px;
+}
