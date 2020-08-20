@@ -45,3 +45,6 @@ Instructor: Marcos Pinardi
 >y sirve para modificar la estética de una etiqeuta
 >cada vez que aparezca
  
+### 2. Selector de ID
+> El selector de ID sirve para modificar un elmento único en el HTML
+> 
