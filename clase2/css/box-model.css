@@ -1,0 +1,32 @@
+body{
+    background-color: #b3c684;
+    color: #2a2f20;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+#naranja{
+    background-color: #e5c26d;
+    height: 120px;
+    width: 200px;
+    margin: auto;  /* centrar una caja */
+    padding: 20px;
+    box-sizing: border-box;
+}
+#amarillo{
+    background-color: #dde56d;
+    height: 120px;
+    width: 200px;
+    margin: 25px;
+}#celeste{
+    background-color: #6de5db;
+    height: 120px;
+    width: 200px;
+    margin: 50px 0px 100px 5px;
+}
+#gris{
+    background-color: #d9d6d2;
+    height: 60px;
+    width: 140px; /* 200  */
+    padding-top: 60px; /* 120 */
+    padding-left: 60px;
+}
