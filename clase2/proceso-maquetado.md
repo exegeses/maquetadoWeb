@@ -20,7 +20,7 @@
     Just in Mind  https://www.justinmind.com/     
     Adobe XD  https://www.adobe.com/products/xd.html     
     
-## Maquetado 
+## 3. Maquetado 
 
 > El proceso de maquetado es: Volcar a HTML + CSS ese prototipo que hiciste.  
 > ES ARMAR el sitio  
