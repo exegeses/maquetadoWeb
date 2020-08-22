@@ -1,0 +1,25 @@
+body{
+    background-color: #D7D9D8;
+    color: #1f282b;
+    font-family: Helvetica;
+    font-size: 18px;
+    width: 960px;
+    margin: auto;
+}
+header{
+    background-color: #75B8BF;
+    height: 130px;
+}
+nav{
+    background-color: #20818C;
+    height: 60px;
+}
+main{
+    /* nota */
+    height: 550px;
+    background-color: #d9f6f6;
+}
+footer{
+    background-color: #20818C;
+    height: 130px;
+}
