@@ -1,0 +1,22 @@
+
+body{
+    width: 900px;
+    margin: auto;
+    background-color: #f5ecf3;
+}
+header{
+    height: 140px;
+    background-color: #642558;
+}
+nav{
+    height: 60px;
+    background-color: #a53a6c;
+}
+main{
+    height: 600px;
+    background-color: #ffffff;
+}
+footer{
+    height: 140px;
+    background-color: #642558;
+}

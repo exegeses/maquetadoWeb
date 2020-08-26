@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica;
+    font-size: 1.2em;
+    color: #1f282b;
+}
+#destacado{
+   /* line-height: 35px; */
+}
