@@ -9,14 +9,17 @@ body{
     width: 250px;
     height: 100px;
     background-color: #0b4c8a;
+    float: left;
 }
 #celeste {
     width: 250px;
     height: 100px;
     background-color: #66a4e7;
+    float: left;
 }
 #blanco {
     width: 250px;
     height: 100px;
     background-color: #ffffff;
+    float: left;
 }

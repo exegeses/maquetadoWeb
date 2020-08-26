@@ -16,6 +16,19 @@ main{
     height: 600px;
     background-color: #ffffff;
 }
+    #contenido{
+        width: 680px;
+        height: 600px;
+        background-color: #707070;
+        float: left;
+    }
+    #promos{
+        width: 220px;
+        height: 600px;
+        background-color: #b5b5b5;
+        float: left;
+    }
+
 footer{
     height: 140px;
     background-color: #642558;
