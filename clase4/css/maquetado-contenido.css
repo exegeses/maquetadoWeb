@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif;
+    color: #3b3b3b;
+}
+    header{
+        background-color: #ccc;
+        height: 140px;
+    }
+    nav{
+        height: 60px;
+    }
+    /*
+        contenido principal
+    */
+    main{
+
+    }
+    /*
+        contenido principal
+    */
+    footer{
+
+    }
