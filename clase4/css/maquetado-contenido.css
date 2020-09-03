@@ -13,16 +13,54 @@ body{
     }
     nav{
         height: 60px;
+        text-align: center;
     }
+        nav a{
+            text-decoration: none;
+            color: #3b3b3b;
+            padding: 18px 30px;
+            display: inline-block;
+        }
+        nav a:hover{
+            border-bottom: 3px solid #59D9CB;
+        }
+    
     /*
         contenido principal
     */
     main{
-
+        width: 960px;
+        margin: auto;
+        /* background-color: #e7eaea; */
+        min-height: 600px;
     }
+        main article{
+            width: 260px;
+            /*
+            version usando float
+            float: left;
+            margin: 30px;
+             */
+            /* versión usando display: inline-block */
+            display: inline-block;
+            margin: 28px;
+        }
+
     /*
         contenido principal
     */
     footer{
-
+        background-color: #ccc;
+        height: 140px;
+        text-align: center;
+        padding-top: 50px;
     }
+        footer a{
+            margin: 30px;
+            text-decoration: none;
+        }
+        footer a i{
+            font-size: 40px;
+            position: relative;
+            top: 8px;
+        }
