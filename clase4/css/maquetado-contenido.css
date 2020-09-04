@@ -58,9 +58,11 @@ body{
         footer a{
             margin: 30px;
             text-decoration: none;
+            color: #3b3b3b;
         }
         footer a i{
             font-size: 40px;
+            margin-right: 8px;
             position: relative;
             top: 8px;
         }

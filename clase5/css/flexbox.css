@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif;
+    width: 900px;
+    margin: auto;
+}
+h1, h2{
+   margin: 25px 0 10px 0px;
+}
+hr{
+    margin: 10px 0;
+}
+
+/* seteo general de contenedores */
+#contenedor, #contenedor2, #contenedor3, #contenedor4 {
+    background-color: #ccc;
+    min-height: 300px;
+    display: flex;
+}
+
+    article{
+        background-color: #fff;
+        width: 200px;
+         height: 100px;
+        margin: 20px;
+        text-align: center;
+    }
+
+#contenedor{
+     flex-direction: row; /* predeterminado */
+    /* flex-direction: row-reverse; /* invierte el orden + alineado */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse;  invierte el orden */
+}
+
+#contenedor2{
+    flex-direction: row;
+    /* flex-wrap: nowrap; /* NO respeta los anchos */
+    flex-wrap: wrap; /* respeta los anchos */
+}
+#contenedor3{
+    flex-direction: row;
+    flex-wrap: wrap; /* respeta los anchos */
+    /* justify-content: flex-start; /* predeterminado */
+    /* justify-content: flex-end; /* alinea a la derecha sin invertir */
+    /* justify-content: center; */
+    /* justify-content: space-between; /* sólo espacios entre cajas */
+    /* justify-content: space-around; /* distribuye especios a los lados */
+    justify-content: space-evenly;
+}
+#contenedor4{
+    flex-direction: row;
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: space-evenly;
+    /* align-content: flex-start; /* predeterminado arriba */
+    /* align-content: flex-end; /* debajo, sobre línea de base */
+    /* align-content: center; /* centrado vertical */
+    align-content: stretch; /* estira las cajas, SI NO TIENEN ALTURA */
+}
+#contenedor4 article{
+    height: initial;  /* resetea altura */
+}
