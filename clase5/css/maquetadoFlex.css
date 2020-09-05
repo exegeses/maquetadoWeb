@@ -21,6 +21,10 @@ main{
     min-height: 550px;
     width: 960px;
     margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
     main article{
         width: 290px;
