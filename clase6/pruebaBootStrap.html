@@ -7,17 +7,68 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header class="fixed-top p-4 bg-secondary">
-        <nav class="navbar navbar-expand">menu</nav>
+    <header class="fixed-top p-4 bg-light shadow-sm">
+
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Nombre de la Empresa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Empresa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
     </header>
     <main class="container">
         <h1>Implementando bootstrap</h1>
-        <p>
-            Primero enlazamos la hoja de estilos de bootstrap y luego algo de magia...
+        <p class="alert alert-success">
+            Primero enlazamos la hoja de estilos de bootstrap y
+            <span class="badge badge-success px-3 py-2">
+                luego algo de magia...
+            </span>
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti dolor fugiat hic inventore laborum quibusdam, quo sapiente sit veritatis!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Architecto deleniti dolor fugiat hic inventore laborum quibusdam, quo sapiente sit veritatis!
+            <a href="#" class="btn btn-dark">link de prueba</a>
         </p>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/ffffff.png" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
 
     </main>
     <footer class="fixed-bottom bg-secondary p-4 text-center border-top">
